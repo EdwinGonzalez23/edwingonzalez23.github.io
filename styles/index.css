@@ -52,11 +52,18 @@ html {
 
 .card .custom-card {width: 100%;}
 
+.stacked-card {margin-bottom: 10px;}
+
 .project-row .borderless li {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.project-row .col-md-6 .custom-card-col {
     padding-left: 0px;
     padding-right: 0px;
 }
 
 .disabled {color: black;}
 
-.custon-card-col {margin-bottom: 10px;}
+.custom-card-col {margin-bottom: 10px; }
