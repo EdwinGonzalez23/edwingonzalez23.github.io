@@ -14,11 +14,11 @@ $(document).ready(function () {
         var button = $(this);
         button.removeClass('active');
 
-        //educationText.addClass('animated bounceInRight fast');
+        educationText.addClass('animated bounceInRight fast');
 
         educationText.on('animationend', function(e) { 
-            //educationText.removeClass('animated bounceInRight fast'); 
-            // button.removeClass('active');
+            educationText.removeClass('animated bounceInRight fast'); 
+            button.removeClass('active');
         });
     });   
     
